@@ -5,6 +5,8 @@ from datetime import datetime,date
 
 
 # Create your views here.
+
+
 def home(request):#the word "request " between the parentheses is a parametere
     time=datetime.now()
     x=[1,2,3,4,5,6,7,8,9,10,11]
@@ -14,7 +16,7 @@ def home(request):#the word "request " between the parentheses is a parametere
     line=date(2020,9,9)
     remainingtime=datetime(2020,9,25,10,10,12)
 
-    return render(request,'index.html ',{
+    return render(request,'Happ/index.html ',{
         #'dir':os.getcwd(),#متغير يعطينا المسار ابذي نعمل عليه حاليا
         #'dir1':platform.platform, #متغير يعطينا معلومات النظام
         #'name':False, #قيمة فارغة
