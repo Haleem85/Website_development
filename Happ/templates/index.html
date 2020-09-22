@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+<head>
+ </head>
+<body style="text-align:center;font-size:160%;background-color:grey;">
+</body>
+<P style="font-size:300%;background-color:yellow;"><!--مواصفات الشكل-->
+</p> 
+ <p1 style="font-size:300%;background-color:DodgerBlue;">
+ <!--الوقت والتاريخ-->
+ {{created}}
+ </p1>
+
+
+
+<!--متغيرات-->
+<h1>
+{{age}} <!--متغيرات-->
+</h1>
+<h2>
+{{city}} <!--متغيرات-->
+</h2>
+<h3>
+{{dir1}} <!--متغير مواصفات النظام-->
+</h3>
+<h4>
+{{dir}}<!--متغير موقع العمل الحالي-->
+</h4>
+<h5>
+<!--{{name|default:'Haleem Al Salahi'}}-->
+
+<!-- التعليقات:
+
+هذا مثال على استخدام الفتر مع المتغير القيمة -->
+<!--القيمة التلقائية هي اسم حليم الصلاحي بمعنى لو ان قيمة المتغير في ملف المشاهد تركت فارغة سيقوم البر
+نامج بتعويضها بالقيمة التلقائية-->
+
+<!--القيمة التلقائية يتم استبدالها بدل القيم القارغة او الخاطئة-->
+<!--{ then { then v|f:v1,v2 then }then }_-->
+<!--Please ignore the word "then" it is not apart of code-->
+<!--الصيغة اعلاه هي كود او صيغة لادراج فلتر الى المتغيرات الحرف-->
+<!--V: is the variable-->
+<!--"|" : pipe that sepereates variables from filters-->
+<!--f:filters-->
+<!--v1,v2...etc: this the values-->
+<!--اذا كان المتغير يضم معالم فاننا نضيف القيم بعد الفلتر 
+واذا كان لا يشمل معالم فاننا نبدأ
+ مباشرة بعد علامة البايب بسرد القيم-->
+
+ <!--انتهاء التعليقات-->
+ </h5>
+ <h6>
+ <!--{{num|filesizeformat}}--><!--صيغة تقوم باختصار الارقام الطويلة انظر القيمة في ملف المشاهد-->
+ </h6>
+ <h7>
+ {{number|add:4}}<!--فلتر الاضافة--></h7>
+ 
+ <p>
+ <!--فلتر لجعل اول حرف كبير-->
+ {{Father_name|capfirst}}
+ </p>
+ <p>
+ <!--فلتر حذف او قص-->
+ {{greetings|cut:'h'}}
+ </p>
+<p>
+<!--  فلتر الاختيار العشوائي
+وكذلك فلتر استدعاء القيم من قائمة ضمن مدى محدد-->
+
+<!--فلتر الاختيار العشوائي وفلتر استدعاء مدى محدد من القيم ينطبق فقط على النصوص والقائمة-->
+<!--{{ran|random}}-->
+<!--{{ran|slice:'0:12'}}-->
+</p>
+<p20>
+<!--فلتر يفصل بين الكلمات بشرطة عللى السطر-->
+{{username|slugify}}
+</p20>
+<p21>
+<!--{{timeline|timesince}} ago-->
+{{remainedtime|timeuntil}}
+</p21>
+<p22>
+<!--Product {{product|truncatechars:5}}-->
+</p22>
+<p>
+ <!--Product {{product|truncatewords:2}}-->
+</p>
+<p25>
+<!--{{list|unordered_list}}-->
+</p25>
+<p26>
+<!--<a herf="#">Click</a>-->
+<p26>
+<!--{{urls|urlize}}-->
+</p26>
+</html>
