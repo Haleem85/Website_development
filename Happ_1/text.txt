@@ -1,0 +1,4 @@
+<!--<script src="{%static '../../static/Happ_1/jquery/jquery-3.5.1.slim.min.js' %}-->
+    <!--<script src="{%static '../../static/Happ_1/bootstrap/propper.min.js'%}"></scri-->
+    <!--<script src="{%static '../../static/Happ_1/bootstrap/bootstrap.min.js'%}"></s-->
+    <!--<script src="{%static '../../static/Happ_1/icons/fontawosme-all.min.js'%}"></-->
