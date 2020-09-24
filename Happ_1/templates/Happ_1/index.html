@@ -1,4 +1,4 @@
-{% load static %}
+{% load static from static %}
 
 <!DOCTYPE html>
 <html lang="en" name='Happ_1/index.html'>
@@ -9,15 +9,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Django Templates Languague application</title>
     <!--this is the css files links-->
-    <link rel="stylesheet" href="{% static'../../static/Happ_1/bootstrap/bootstrap.min.css' %}">
-    <link rel="stylesheet" href="{% static '../../static/Happ_1/icons/font-awesome.min.css' %}">
-    <link rel="stylesheet" href="{% static '../../static/Happ_1/main/main.css' %}">
+    <link rel="stylesheet" href=" {% static '../../static/Happ_1/bootstrap/bootstrap.min.css' %}">
+    <link rel="stylesheet" href=" {% static '../../static/Happ_1/icons/font-awesome.min.css' %}">
+    <link rel="stylesheet" href=" {% static '../../static/Happ_1/main/main.css' %}">
 
     <!--This the JS files links-->
-    <script src="{% static '../../static/Happ_1/jquery/jquery-3.5.1.slim.min.js' %}"></script>
-    <script src="{% static '../../static/Happ_1/bootstrap/popper.min.js' %}"></script>
-    <script src="{% static '../../static/Happ_1/bootstrap/bootstrap.min.js' %}"></script>
-    <script src="{% static '../../static/Happ_1/icons/fontawosme-all.min.js' %}"></script>
+    <script src=" {% static '../../static/Happ_1/jquery/jquery-3.5.1.slim.min.js' %}"></script>
+    <script src=" {% static '../../static/Happ_1/bootstrap/popper.min.js' %}"></script>
+    <script src=" {% static '../../static/Happ_1/bootstrap/bootstrap.min.js' %}"></script>
+    <script src=" {% static '../../static/Happ_1/icons/fontawosme-all.min.js' %}"></script>
     {% block box%} {% endblock box %}
     </body>
 
